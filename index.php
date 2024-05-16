@@ -5,7 +5,7 @@ session_start();
 // Incluir el archivo de configuración del sitio.
 require_once("./config.php");
 ?>
-
+ 
 <!DOCTYPE html>
 <html>
 
@@ -46,7 +46,7 @@ require_once("./config.php");
             echo "<p class='alert'>¡URL no válida!</p>";
         }
         if (isset($_GET['error']) && $_GET['error'] == 'dnp') {
-            echo "<p class='alert'>¡Bien! ¡Entendí que te gusta jugar, pero no juegues aquí!</p>";
+            echo "<p class='alert'>¡Bien! ¡Entendí que te gusta jugar, pero no juegues aquí estamos!</p>";
         }
         ?>
         <!-- Formulario para acortar URL. -->
